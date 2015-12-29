@@ -17,7 +17,52 @@ body {
   background-color: #f5f5f5;
 }
 
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999999;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar {
+  margin-top: 2em;
+  border-radius: 0.5em;
+  background-color: #98988F;
+}
+
 li {
   list-style: none;
 }
 
+.header-wrapper .header {
+  height: 30em;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url("thekingshallrejoice.jpg");
+}
+
+/*Atomic lables*/
+/*Font*/
+.c-light { color: white; }
+.fz-header { font-size: 4em; }
+.fz-lg { font-size: 2.5em; }
+
+/*Position, Margin, Border, Padding*/
+.f-l { float: left; }
+.f-r { float: right; }
