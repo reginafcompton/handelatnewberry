@@ -17,26 +17,6 @@ body {
   background-color: #f5f5f5;
 }
 
-nav ul li ul {
-  position: absolute;
-  margin-top: 0.5em;
-  background: #FFF;
-}
-
-nav ul li ul li {
-  width: 110px;
-}
-
-nav ul li ul li a {
-  display: block;
-  color: #444;
-}
-
-nav ul li ul li:hover a {
-  background:#F7F7F7;
-}
-
-
 li {
   list-style: none;
 }
