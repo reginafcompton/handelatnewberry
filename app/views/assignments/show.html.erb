@@ -1,2 +1,7 @@
-<h1>Assignments#show</h1>
-<p>Find me in app/views/assignments/show.html.erb</p>
+<div class="container">
+  <h2><%= @assignment.title %></h2>
+  <h4><%= @assignment.date %></h4>
+  <%= render "a#{@assignment.id}" %>
+</div>
+
+

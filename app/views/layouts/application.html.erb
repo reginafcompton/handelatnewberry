@@ -27,9 +27,9 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle c-light fz-lg pt-std" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">assignments<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">February 27</a></li>
-                <li><a href="#">March 5</a></li>
-                <li><a href="#">March 12</a></li>
+                <% @assignments.each do |assignment| %>
+                  <li><%= link_to assignment.date, assignment_path(assignment) %></li>
+                <% end %>
               </ul>
             </li>
           </ul>
