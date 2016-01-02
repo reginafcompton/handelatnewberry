@@ -5,9 +5,9 @@ A website (i.e., unnecessarily heavy-weight rails app) for students in the Adult
 Saturdays, February 20-April 16
 1-2:30 pm
 
-The Newberry
+**The Newberry
 60 West Walton Street
-Chicago, IL 60610
+Chicago, IL 60610**
 
 Learn more about the course [here](https://newberry.org/WS16Handel).
 
