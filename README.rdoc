@@ -1,4 +1,4 @@
-== README
+== Handel at Newberry
 
 A website (i.e., unnecessarily heavy-weight rails app) for students in the Adult Education Seminar at the Newberry Library (Chicago) – "Examining the Life and Works of George Frideric Handel."
 
@@ -9,5 +9,5 @@ The Newberry
 60 West Walton Street
 Chicago, IL 60610
 
-[LEARN MORE](https://www.newberry.org/WS16Handel)
+Learn more about the course [here](https://www.newberry.org/WS16Handel).
 
