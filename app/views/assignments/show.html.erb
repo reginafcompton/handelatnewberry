@@ -1,4 +1,7 @@
-<h2><%= @assignment.title %></h2>
-<h4><%= @assignment.date %></h4>
-<%= render @assignment_partial %>
+<div class="container">
+  <h2><%= @assignment.title %></h2>
+  <h4><%= @assignment.date %></h4>
+  <%= render "a#{@assignment.id}" %>
+</div>
+
 
