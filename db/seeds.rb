@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Assignment.create([{ title: "The Theater in the Eighteenth Century", date: "February 27"}, { title: "Giulio Cesare (London, 1724)", date: "March 5"}])
