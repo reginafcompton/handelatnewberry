@@ -1,3 +1,13 @@
 == README
 
-A website (i.e., unnecessarily heavy-weight rails app) for students in the Adult Education Seminar: Examining the Life and Works of George Frideric Handel.
+A website (i.e., unnecessarily heavy-weight rails app) for students in the Adult Education Seminar at the Newberry Library (Chicago) – "Examining the Life and Works of George Frideric Handel."
+
+Saturdays, February 20-April 16
+1-2:30 pm
+
+The Newberry
+60 West Walton Street
+Chicago, IL 60610
+
+[Learn More!](https://www.newberry.org/WS16Handel)
+
