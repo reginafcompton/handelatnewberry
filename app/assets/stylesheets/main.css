@@ -5,7 +5,7 @@ html {
 
 body {
   /* Footer height */
-  margin-bottom: 5em;
+  margin-bottom: 7em;
   font-family: 'Josefin Slab', serif;
 }
 
@@ -65,12 +65,10 @@ li a {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 5em;
-  background-color: #9ad3de;
+  height: 7em;
+  background-color: #7ec2aa;
   color: white;
   z-index: 9;
-  text-align: center;
-  padding: 1.5em;
 }
 
 /*Atomic lables*/
@@ -78,19 +76,22 @@ li a {
 .c-light { color: white; }
 .fz-header { font-size: 4em; }
 .fz-lg { font-size: 2.5em; }
+.fz-m { font-size: 1.5em; }
 .f-logo { font-family: 'Julius Sans One', sans-serif; }
 
 /*Position, Margin, Border, Padding*/
 .f-l { float: left; }
 .f-r { float: right; }
 .mt-lg { margin-top: 5em; }
-.p-m { padding: 0.5em;}
+.p-m { padding: 0.5em; }
+.pt-m { padding-top: 1.5em; }
+.pr-m { padding-right: 1.5em; }
 .pos-r { position: relative; }
 
 /*Background*/
 .bgc-light { background-color: #e3e3e3; }
 .bgc-fog { background-color: #c9c9c9; }
-.bgc-sea { background-color: #89bdd3; }
+.bgc-berry { background-color: #57102c}
 .z-index { z-index: 9; }
 .h-min { min-height: 600px; }
 
