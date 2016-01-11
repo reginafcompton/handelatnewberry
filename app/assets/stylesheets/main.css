@@ -6,7 +6,6 @@ html {
 body {
   /* Footer height */
   margin-bottom: 7em;
-  font-family: 'Josefin Slab', serif;
 }
 
 .container {
@@ -61,6 +60,10 @@ li a {
   color: white;
 }
 
+p {
+  margin: 0 0 25px;
+  line-height: 1.6em;
+}
 .footer {
   position: absolute;
   bottom: 0;
@@ -74,24 +77,29 @@ li a {
 /*Atomic lables*/
 /*Font*/
 .c-light { color: white; }
-.fz-header { font-size: 4em; }
-.fz-lg { font-size: 2.5em; }
+.fz-xlg { font-size: 4.5em; }
+.fz-lg { font-size: 3em; }
 .fz-m { font-size: 1.5em; }
-.f-logo { font-family: 'Julius Sans One', sans-serif; }
+.f-julius { font-family: 'Julius Sans One', sans-serif; }
+.f-muli { font-family: 'Muli', sans-serif; }
+.f-serif { font-family: 'Josefin Slab', serif; }
 
 /*Position, Margin, Border, Padding*/
 .f-l { float: left; }
 .f-r { float: right; }
-.mt-lg { margin-top: 5em; }
-.p-m { padding: 0.5em; }
+.mt-xlg { margin-top: 5em; }
+.mb-xxlg { margin-bottom: 12em; }
+.p-sm { padding: 0.5em; }
+.p-lg { padding: 3em; }
 .pt-m { padding-top: 1.5em; }
 .pr-m { padding-right: 1.5em; }
 .pos-r { position: relative; }
 
 /*Background*/
-.bgc-light { background-color: #e3e3e3; }
-.bgc-fog { background-color: #c9c9c9; }
+.bgc-light { background-color: #d3d3d3; }
+.bgc-fog { background-color: #a7a7a7; }
 .bgc-berry { background-color: #57102c}
 .z-index { z-index: 9; }
 .h-min { min-height: 600px; }
+
 
