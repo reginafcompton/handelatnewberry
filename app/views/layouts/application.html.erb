@@ -5,13 +5,13 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-  <link href='https://fonts.googleapis.com/css?family=Josefin+Slab|Julius+Sans+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Muli|Julius+Sans+One|Josefin+Slab' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
-  <div class="header-wrapper bgc-sea z-index pos-r">
-    <header class="container header bcg-sea z-index pos-r">
-      <div class="c-light f-l fz-header f-logo p-m"><strong>Handel at Newberry</strong></div>
+  <div class="header-wrapper bgc-berry z-index pos-r">
+    <header class="container header bcg-berry z-index pos-r">
+      <div class="c-light f-l fz-xlg f-julius p-sm"><strong>Handel at Newberry</strong></div>
       </div>
       <div class="image z-index pos-r"></div>
     </header>
@@ -20,7 +20,7 @@
   <div class="page"></div>
   <div class="navbar-wrapper bgc-fog">
     <div class="container">
-      <nav class="navbar bgc-fog navbar-static-top">
+      <nav class="navbar bgc-fog f-serif p-sm navbar-static-top">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -51,9 +51,9 @@
 
   <%= yield %>
 
-  <footer class="footer">
-    <div class="container">
-      <p>Copyright &copy; 2016 Regina Frances Compton</p>
+  <footer class="footer f-julius">
+    <div class="copyright f-r fz-m pt-m pr-m">
+      Copyright &copy; 2016 Regina Frances Compton
     </div>
   </footer>
 </body>
