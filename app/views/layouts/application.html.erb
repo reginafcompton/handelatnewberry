@@ -20,7 +20,7 @@
   <div class="page"></div>
   <div class="navbar-wrapper bgc-fog">
     <div class="container">
-      <nav class="navbar bgc-fog f-serif p-sm navbar-static-top">
+      <nav class="navbar bgc-fog f-serif navbar-static-top">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed bgc-berry" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -33,7 +33,7 @@
           <ul class="nav navbar-nav">
             <li class="fz-lg pt-std"><%= link_to 'about', about_path %></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle fz-lg pt-std" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">assignments<span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle fz-lg" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">assignments<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <% @assignments.each do |assignment| %>
                   <li><%= link_to assignment.date, assignment_path(assignment) %></li>
