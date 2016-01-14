@@ -51,19 +51,36 @@ body {
   width: auto;
 }
 
+.navbar-nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.navbar-nav > li > a:hover {
+  background-color: #7ec2aa;
+}
+
+.navbar-static-top {
+    z-index: 1000;
+    border-width: 0;
+}
+
+.dropdown-menu {
+  border: 0;
+  font-size: 1.5em;
+  z-index: 99999999;
+}
 
 li {
   list-style: none;
-}
-
-li a {
-  color: white;
 }
 
 p {
   margin: 0 0 25px;
   line-height: 1.6em;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -73,6 +90,8 @@ p {
   color: white;
   z-index: 9;
 }
+
+
 
 /*Atomic lables*/
 /*Font*/
@@ -94,6 +113,7 @@ p {
 .pt-m { padding-top: 1.5em; }
 .pr-m { padding-right: 1.5em; }
 .pos-r { position: relative; }
+.pos-s {position: static; }
 
 /*Background*/
 .bgc-light { background-color: #d3d3d3; }
