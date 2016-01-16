@@ -72,6 +72,9 @@ p {
   line-height: 1.6em;
 }
 
+h1 { font-size: 3em; }
+h2 { font-size: 2.5em; }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -87,9 +90,9 @@ p {
 /*Atomic lables
 /*Font*/
 .c-light { color: white; }
-.fz-xlg { font-size: 4.5em; }
-.fz-lg { font-size: 3em; }
-.fz-m { font-size: 1.5em; }
+.fz-xlg { font-size: 5em; }
+.fz-lg { font-size: 3.5em; }
+.fz-m { font-size: 1.6em; }
 .f-julius { font-family: 'Julius Sans One', sans-serif; }
 .f-muli { font-family: 'Muli', sans-serif; }
 .f-serif { font-family: 'Josefin Slab', serif; }
@@ -102,6 +105,7 @@ p {
 .p-sm { padding: 0.5em; }
 .p-lg { padding: 3em; }
 .pt-m { padding-top: 1.5em; }
+.pb-sm { padding-bottom: 0.5em; }
 .pr-m { padding-right: 1.5em; }
 .pos-r { position: relative; }
 .pos-s {position: static; }
