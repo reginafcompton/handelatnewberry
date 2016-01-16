@@ -8,19 +8,10 @@ body {
   margin-bottom: 7em;
 }
 
-.container {
-  position: relative;
-}
-
 .page {
   background-image: url("recorder-sonata.png");
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 1;
   width: 100%;
-  opacity: 0.15;
-  height: 100vh;
+  opacity: 0.99;
 }
 
 .image {
@@ -93,7 +84,7 @@ p {
 
 
 
-/*Atomic lables*/
+/*Atomic lables
 /*Font*/
 .c-light { color: white; }
 .fz-xlg { font-size: 4.5em; }
@@ -107,7 +98,7 @@ p {
 .f-l { float: left; }
 .f-r { float: right; }
 .mt-xlg { margin-top: 5em; }
-.mb-xxlg { margin-bottom: 12em; }
+.mb-xxlg { margin-bottom: 8em; }
 .p-sm { padding: 0.5em; }
 .p-lg { padding: 3em; }
 .pt-m { padding-top: 1.5em; }
@@ -120,6 +111,6 @@ p {
 .bgc-fog { background-color: #a7a7a7; }
 .bgc-berry { background-color: #57102c}
 .z-index { z-index: 9; }
-.h-min { min-height: 600px; }
+.h-min { min-height: 800px; }
 
 
