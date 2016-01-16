@@ -1,9 +1,8 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
-
-Assignment.create([{ title: "The Theater in the Eighteenth Century", date: "February 27"}, { title: "Giulio Cesare (London, 1724)", date: "March 5"}, { title: "The Theater in the Eighteenth Century", date: "March 12"}])
+Assignment.create([
+  { title: "The Theater in the Eighteenth Century", date: "February 27"},
+  { title: "Giulio Cesare (London, 1724)", date: "March 5"},
+  { title: "Cesare in Context", date: "March 12"},
+  { title: "Orlando (London, 1733)", date: "March 19"},
+  { title: "More on Orlando", date: "April 2"},
+  { title: "Agrippina (Venice, 1709)", date: "April 9"},
+  { title: "Musical Borrowing, Ethics, and the Case of Agrippina", date: "April 16"}])
