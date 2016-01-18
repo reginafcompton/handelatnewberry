@@ -9,13 +9,13 @@ body {
 }
 
 .page {
-  background-image: url("images/recorder-sonata.png");
+  background-image: url("backgrounds/recorder-sonata.png");
   width: 100%;
   opacity: 0.99;
 }
 
 .image {
-  background-image: url("images/Handel.jpeg");
+  background-image: url("backgrounds/Handel.jpeg");
   height: 9em;
 }
 
