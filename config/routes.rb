@@ -8,4 +8,7 @@ Rails.application.routes.draw do
 
   get 'assignments/:id' => 'assignments#show', as: 'assignment'
 
+  match '/contacts', to: 'contacts#new', via: 'get'
+  resources "contacts", only: [:new, :create]
+
 end

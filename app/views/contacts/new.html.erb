@@ -1,0 +1,24 @@
+<div class="page p-sm">
+  <div class="container bgc-light mt-xlg mb-xxlg h-min p-lg">
+
+    <div class="f-muli">
+      <h2 class="f-julius">Contact</h2>
+      <h4>Regina Compton, course instructor and webmaster, welcomes any questions, concerns, curiosities, and feedback about the course or website. You can email her directly (reginafcompton@gmail.com) or complete the below form.</h4>
+
+      <%= simple_form_for @contact do |f| %>
+        <p><%= f.input_field :name, :required => true, :placeholder => "Your Name (required)", :style => "width: 20em;" %></p>
+
+        <p><%= f.input_field :email, :required => true, :placeholder => "Your Email (required)", :style => "width: 20em;" %></p>
+
+        <%= f.input_field :message, :as => :text, :required => true, rows: "20", class: "col-lg-12" %>
+        <div class= "hidden">
+          <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+        </div>
+        <div>
+          </br>
+          <%= f.button :submit, 'Send', :class=> "btn btn-primary bgc-sea b-none mt-m fz-m" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
