@@ -95,6 +95,7 @@ h2 { font-size: 2.5em; }
 .f-julius { font-family: 'Julius Sans One', sans-serif; }
 .f-muli { font-family: 'Muli', sans-serif; }
 .f-serif { font-family: 'Josefin Slab', serif; }
+.ta-c { text-align: center; }
 
 /*Position, Margin, Border, Padding*/
 .f-l { float: left; }
