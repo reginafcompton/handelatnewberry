@@ -108,7 +108,7 @@ h2 { font-size: 2.5em; }
 .pt-m { padding-top: 1.5em; }
 .pb-sm { padding-bottom: 0.5em; }
 .pr-m { padding-right: 1.5em; }
-.pl-m { padding-left: 1.5em; }
+.pl-sm { padding-left: 1em; }
 .pos-r { position: relative; }
 .pos-s {position: static; }
 .b-none {border: 0px;}
