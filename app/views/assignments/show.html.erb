@@ -1,7 +1,7 @@
 <div class="page p-sm">
   <div class="container bgc-light mt-xlg mb-xxlg h-min p-lg">
-    <h2 class="f-julius"><%= @assignment.title %></h2>
-    <h3 class="f-julius"><%= @assignment.date %></h3>
+    <h1><%= @assignment.title %></h1>
+    <h2 class="pb-m">Materials for class on <%= @assignment.date %></h2>
     <%= render "a#{@assignment.id}" %>
   </div>
 </div>
