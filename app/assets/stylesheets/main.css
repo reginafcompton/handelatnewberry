@@ -72,8 +72,13 @@ p {
   line-height: 1.6em;
 }
 
-h1 { font-size: 3em; }
-h2 { font-size: 2.5em; }
+h1 { font-size: 3.5em; }
+h2 { font-size: 3em; }
+h3 { font-size: 2.5em; }
+h4 { font-size: 1.8em; }
+h1, h3 { font-family: 'Julius Sans One', sans-serif; }
+h2 { font-family: 'Josefin Slab', serif; }
+h4 { font-family: 'Muli', sans-serif; }
 
 .footer {
   position: absolute;
@@ -96,6 +101,7 @@ h2 { font-size: 2.5em; }
 .f-muli { font-family: 'Muli', sans-serif; }
 .f-serif { font-family: 'Josefin Slab', serif; }
 .ta-c { text-align: center; }
+.fs-i { font-style: italic; }
 
 /*Position, Margin, Border, Padding*/
 .f-l { float: left; }
@@ -107,6 +113,8 @@ h2 { font-size: 2.5em; }
 .p-lg { padding: 3em; }
 .pt-m { padding-top: 1.5em; }
 .pb-sm { padding-bottom: 0.5em; }
+.pb-m { padding-bottom: 1em; }
+.pb-lg { padding-bottom: 2em; }
 .pr-m { padding-right: 1.5em; }
 .pl-sm { padding-left: 1em; }
 .pos-r { position: relative; }
